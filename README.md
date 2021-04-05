@@ -10,4 +10,4 @@ To run phase 2 files:
 
 If you add any new packages to the project, you might need to update the requirement files. Please follow the steps:
 1. pip freeze > requirements.txt
-2. Push it to git# Gesture-Recognition
+2. Push it to git
