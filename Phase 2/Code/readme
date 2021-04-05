@@ -1,0 +1,52 @@
+1. Download python 3.8
+2. Create a virtual environment with the command in the application folder:
+        python3.8 -m venv env
+3. Activate the environment
+        source env/bin/activate 
+4. Install all the requirements from the requirement.txt file to install all the dependencies
+	    pip install -r requirements.txt 
+5. Run task 0a
+    python task0a.py
+
+    Enter the directory path(relative or absolute)
+    Enter resolution(integer)
+    Enter window size(integer)
+    Enter split size(integer)
+
+6. Run task 0b
+    python task0b.py
+
+    Enter the directory path(relative or absolute)
+
+6. Run task 1
+    python task1.py
+
+    Enter the directory path
+    Choose one of vector recognition file: tf, tf-idf
+    Choose one vector model: pca, svd, nmf, lda
+    Choose number of components 
+
+7. Run task 2
+    python task2.py
+
+    Enter the file name to compare
+    Choose one of the user options
+
+8. Run task 3
+    python task3.py
+    
+    Choose one of the model from the user option to create gesture gesture similarity matrix
+    Enter the number of components
+    Choose one of the model from SVD or NMF to find the latent semantics
+
+9. Run task 4ab
+    python task4ab.py
+
+    Choose which model to use from SVD and NMF. It is dependent of task3 so make sure you have choosen the same input in task3 as well.
+
+10. Run task 4cd
+    python task4cd.py
+
+    Choose one of the models available
+    Give the number of components
+    Choose one of the clustering algorithm
